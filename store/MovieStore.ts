@@ -22,7 +22,7 @@ export const useMovieStore = defineStore("movieStore", () => {
     year,
     page,
   }: Options): Promise<IMoviesDTO | null> {
-    const { data } = await useFetch<IMoviesDTO>("http://www.omdbapi.com/", {
+    const { data } = await useFetch<IMoviesDTO>("https://www.omdbapi.com/", {
       params: {
         apikey: apiKey,
         s: "christmas",
@@ -42,7 +42,7 @@ export const useMovieStore = defineStore("movieStore", () => {
     plot = Plot.short,
     imdbID,
   }: Options): Promise<IMovieDTO | null> {
-    const { data } = await useFetch<IMovieDTO>("http://www.omdbapi.com/", {
+    const { data } = await useFetch<IMovieDTO>("https://www.omdbapi.com/", {
       params: {
         apikey: apiKey,
         y: year,

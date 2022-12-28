@@ -29,6 +29,7 @@
       class="Poster relative w-full lg:w-96 h-96 flex after:content-[''] after:w-full after:h-3 after:absolute after:bottom-0 lg:after:h-full lg:after:relative lg:after:w-5 after:block after:z-10"
     >
       <h1
+        v-if="!loading"
         v-text="i + 1"
         class="absolute text-9xl bottom-0 left-16 lg:top-8 lg:left-auto lg:right-16 pointer-events-none"
         style="text-shadow: 0 4px 30px black"

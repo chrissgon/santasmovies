@@ -1,12 +1,12 @@
 ![NOME](./public/thumb.png)
 
-# NOME
-### DESCRICAO
+# Santa's Movies
+### Aplicação de Filmes Natalinos em Nuxt 3 + Typescript
 
 ## Comandos
 - Clona o repositório.
 ``` bash
-git clone git@github.com:chrissgon/repo.git
+git clone git@github.com:chrissgon/santasmovies.git
 ```
 - Instala dependências.
 ``` bash
@@ -21,7 +21,7 @@ npm run dev
 Aplicação hospedada em <a href="http://localhost:3000/">http://localhost:3000/</a>.
 
 ## Referências
-- [Referencia](https://google.com)
+- [OMDb Api](http://www.omdbapi.com/)
 
 ---
 Desenvolvido por [Christopher Gonçalves](https://github.com/chrissgon)

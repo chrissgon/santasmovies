@@ -22,7 +22,7 @@ Aplicação hospedada em <a href="http://localhost:3000/">http://localhost:3000/
 
 ## Referências
 - [OMDb Api](http://www.omdbapi.com/)
-- [Design (Figma)](https://www.figma.com/file/YxK10kIuYzz2KvB0BlUYYk/Santas-Movies?t=UtfWb2l7p2VAcdgF-6)
+- [Design - Figma](https://www.figma.com/file/YxK10kIuYzz2KvB0BlUYYk/Santas-Movies?t=UtfWb2l7p2VAcdgF-6)
 
 ---
 Desenvolvido por [Christopher Gonçalves](https://github.com/chrissgon)

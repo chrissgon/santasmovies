@@ -1,13 +1,15 @@
 <template>
   <figure class="relative">
-    <img
-      class="scale-150 sm:scale-100"
+    <NuxtImg
       src="/banner.webp"
+      sizes="sm:150vw md:150vw lg:200vw"
       alt="Christmas Day"
     />
+
     <img
       src="/wave.svg"
-      class="wave blur-sm border-t-8 border-white sm:border-transparent mt-3 sm:-mt-4 scale-110"
+      class="wave blur-sm border-t-8 border-white sm:border-transparent -mt-3 scale-110"
+      alt="waves"
     />
   </figure>
 </template>

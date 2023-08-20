@@ -79,7 +79,7 @@ export const useMovieStore = defineStore("movieStore", () => {
 
   async function getReleases(): Promise<void> {
     const all = await getAll({
-      year: new Date().getFullYear().toString(),
+      year: (new Date().getFullYear() - 1).toString(),
       type: "movie",
     });
 

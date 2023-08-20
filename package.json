@@ -1,5 +1,6 @@
 {
-  "name": "Santa's Movies",
+  "name": "santasmovies",
+  "displayName": "Santa's Movies",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -10,14 +11,16 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.2.0",
-    "nuxt": "3.0.0",
+    "nuxt": "3.1.0",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0"
   },
   "dependencies": {
     "@kevinmarrec/nuxt-pwa": "^0.13.0",
+    "@nuxt/image-edge": "1.0.0-rc.1-28205905.cb96767",
     "@pinia/nuxt": "^0.4.6",
     "@types/node": "^18.11.18",
-    "pinia": "^2.0.28"
+    "pinia": "^2.0.28",
+    "vue": "^3.3.4"
   }
 }

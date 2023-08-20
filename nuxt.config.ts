@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@kevinmarrec/nuxt-pwa",
+    "@nuxt/image-edge",
     [
       "@pinia/nuxt",
       {
@@ -24,6 +25,13 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Santa's Movies",
+      meta: [
+        {
+          name: "description",
+          content:
+            "Christmas movie recommendations website. Suggestions for classic and new Christmas films, search for titles, consult the synopsis, duration, year and language",
+        },
+      ],
       link: [
         {
           rel: "stylesheet",
